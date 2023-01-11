@@ -1,0 +1,42 @@
+/* General */
+
+* {
+  font-family: Helvetica;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  height: 150px;
+}
+
+h1 {
+  padding-top: 50px;
+  color: orange;
+}
+
+/* Table */
+
+table {
+  border: 2px solid red;
+  margin: 20px auto;
+}
+
+thead {
+  background-color: yellow;
+}
+
+th {
+  border: 1px solid red;
+  width: 200px
+}
+
+td {
+  border: 1px solid green;
+  text-align: center
+}
+
+#source {
+  background-color: orange;
+}
