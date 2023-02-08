@@ -1,0 +1,39 @@
+/* Main component general style */
+.main {
+    background-color:  rgb(218, 207, 207);
+    border-radius: 0.5rem;
+
+}
+
+/* Scrollbar style */
+.main::-webkit-scrollbar-track {
+    border: 1px solid rgb(211, 193, 193);
+    padding: 2px 0;
+    background-color: rgb(218, 207, 207);
+  }
+  
+.main::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+.main::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color:  rgb(218, 207, 207);
+    border: 1px solid rgb(154, 143, 143);
+  }
+
+  /* Error style */
+  .error {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .error h2 {
+    color: brown;
+  }
+
+  .error button {
+    border-radius: 5px;
+  }

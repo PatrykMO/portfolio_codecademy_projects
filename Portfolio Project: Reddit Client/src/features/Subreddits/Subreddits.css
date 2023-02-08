@@ -1,0 +1,72 @@
+/* General subreddit card style */
+  .subreddit-card {
+    background-color:  rgb(218, 207, 207);
+    width: 100%;
+   }
+   
+/* Title styles */
+  .subreddit-card h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .subreddit-card span {
+    color: goldenrod;
+  }
+
+/* Subreddits list styles */
+  .subreddits-list {
+    list-style: none;
+    padding: 5px;
+  }
+
+  .subreddit-card button {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    height: 3rem;
+  }
+  
+  .subreddit-card button:hover {
+    opacity: 0.5;
+    background-color: rgb(154, 143, 143);
+  }
+  
+  .subreddit-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+
+  .subreddit-name {
+    color: azure;
+    font-size: 1rem;
+  }
+
+  .subreddit-subs {
+    color: rgb(132, 106, 106);
+  }
+
+/* Scrollbar styles */
+  .subreddit:-webkit-scrollbar-track {
+    border: 1px solid rgb(211, 193, 193);
+    padding: 2px 0;
+    background-color: rgb(218, 207, 207);
+  }
+  
+  .subreddit::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .subreddit::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color:  rgb(218, 207, 207);
+    border: 1px solid rgb(154, 143, 143);
+  }

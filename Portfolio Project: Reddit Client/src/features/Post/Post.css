@@ -1,0 +1,52 @@
+/* Post container general styles */
+.post-container {
+    width: 50rem;
+    height: 45rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px  rgb(154, 143, 143) solid;
+    border-radius: 10rem;
+    box-shadow: 15px 15px 30px;
+}
+
+/* Title style */
+.post-title {
+    width: 100%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: rgb(116, 111, 111);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.post-title h3 {
+    width: 30rem;
+}
+
+/* Img and img container styles */
+.post-image-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px;
+}
+
+/* Post info style */
+.post-info {
+    display: flex;
+    justify-content: center;
+    color:  rgb(154, 143, 143);
+}
